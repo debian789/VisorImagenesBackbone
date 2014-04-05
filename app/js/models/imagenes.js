@@ -1,0 +1,1 @@
+Visor.Models.Imagenes = Backbone.Model.extend({});

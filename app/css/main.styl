@@ -1,0 +1,199 @@
+
+gris_a = #f7f8fb 
+gris_b = #e0e1e7
+gris_c = #c3c3c3
+gris_d = #e1e1e1
+gris_e = #464b51
+@import "normalize"
+
+body
+  text-align: center
+  font-size 16px 
+  background gris_a
+
+
+.contenidoImagenes 
+  //border 1px solid  blue  
+  background gris_b
+  width 80%
+  height 80%
+  bottom 1% 
+  right 1% 
+  //left 9%
+  //margin-left auto 
+  //margin-right auto 
+  position absolute
+  .imagenVisualizar 
+    width 80%
+    position:  relative
+    margin auto 
+    top 0
+    left 0 
+    right 0 
+    bottom 1% 
+    height 100%
+    border-right 1px solid gris_c
+    //border 2px solid red 
+    img 
+      position absolute
+      top 0 
+      left 0 
+      right 0
+      bottom 0 
+      margin auto 
+      height auto 
+      width auto
+      max-width 98%
+      max-height  90%
+      //border 1px solid blue  
+    span 
+      position absolute 
+      bottom 0 
+      background gris_b 
+      width 98%
+      margin auto 
+      display inline-block 
+      left 0
+      right 0 
+      padding 0.4em
+      opacity 0.9
+  .listadoImagenes
+    width 18%
+    margin-left 1%
+    background gris_c
+    //margin-right 1%
+    //border 1px solid blue 
+    text-align center 
+    height 100%
+    overflow-y auto 
+    div 
+      width 90%
+      height 18%
+      //height 100px 
+      margin 0.4em 0 0 0 
+      padding 0  
+      display inline-block
+      border 1px solid gris_c 
+      list-style-type none
+      position relative 
+      padding 5% auto 5% auto 
+      background gris_e
+      img 
+        cursor pointer
+        padding 0 
+        display block
+        width auto
+        height auto 
+        max-height 98%  
+        max-width 90%
+        position absolute 
+        margin auto 
+        left 0 
+        right 0 
+        top 0 
+        bottom 0  
+  .imagenVisualizar,.listadoImagenes
+    display inline-block 
+    vertical-align top 
+.contendioAlbum
+  width 17%
+  //border 1px solid blue 
+  bottom 1% 
+  left 1%
+  //right 9%
+  margin auto 
+  padding 0 
+  position absolute
+  //top  29%
+  height 80%
+  max-height 80%
+  overflow-x auto
+  background gris_c
+  span 
+    display block
+    height 4%
+    //background red 
+    position relative 
+    top 0 
+    z-index:  200
+    margin 0.3em
+    font-size 1.1
+    // border 1px solid red 
+  figure
+    background #ccc
+    padding 0 
+    position relative
+    display inline-block
+    height 28%  
+    margin-right auto 
+    margin-left auto 
+    margin-bottom auto 
+    margin-top 3% 
+    vertical-align middle
+    width  90% 
+
+    //border 1px solid red 
+    background gris_e
+    img 
+      cursor pointer
+      padding 0 
+      display block
+      width auto
+      height auto 
+      max-height 99%  
+      max-width 90%
+      position absolute 
+      margin auto 
+      left 0 
+      right 0 
+      top 0 
+      bottom 0 
+    &:hover
+      .tituloAlbum
+        //background red  
+        display block
+    .tituloAlbum 
+      display none 
+      background gris_a 
+      width 100%
+      //border 1px solid red
+      bottom 0 
+      position absolute
+      opacity 0.4
+      color black 
+.titulo
+   position absolute
+   width 98%
+   //border 1px solid red 
+   margin auto 
+   height 10%
+   h1
+     position relative
+     //border 1px solid red 
+     //margin 10% 0 0 0  
+     padding 0
+
+
+
+.contenedor
+  border: 1px solid red
+  width: 100%
+
+.itemVisualizar
+  border: 1px solid #ccc
+  display: inline-block
+  vertical-align: top
+  width: 20%
+
+.itemVisualizar li img
+  width: 100%
+
+.visualizadorImagen
+  display: inline-block
+  vertical-align: top
+  width: 50%
+  border: 1px solid red
+
+.visualizadorImagen img
+  width: 100%
+

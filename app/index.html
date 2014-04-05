@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+
+	<section class="titulo">
+	<h1>Visulizador de imagenes </h1>
+		
+	</section>
+	<section class="contendioAlbum">
+		<span>Albumes</span>
+	</section>
+
+	<section class="contenidoImagenes">
+		<section class="imagenVisualizar">
+		</section>
+		<section class="listadoImagenes">
+		</section>
+	</section>
+
+
+
+	<script type="text/x-handlebars-template" id="album-template">
+	<img src="{{ urlImagen }}" alt="">
+	<div class="tituloAlbum">{{ titulo }}</div>
+	</script>
+
+	<script type="text/x-handlebars-template" id="imagen-visualizada-template"> 
+	<img src="{{ urlImagen }}" alt="">
+	<span> {{ titulo }} </span>
+	</script>
+
+	<script type="text/x-handlebars-template" id="listado-imagenes-template"> 
+ <img src="{{ urlImagen }}" alt="">
+	</script>
+
+
+
+
+
+
+
+
+
+<!-- 	<section class="contenidoImagenes">
+		<section class="imagenVisualizar">
+			<img src="/img/1.jpeg" alt="">
+		</section>
+		<section class="listadoImagenes">
+			<div> <img src="/img/1.jpeg" alt=""></div>
+			<div> <img src="/img/2.jpeg" alt=""></div>
+			<div> <img src="/img/3.jpg" alt=""></div>
+		</section>
+	</section> -->
+
+<!-- 
+
+	<section class="contendioAlbum">
+		<h1>Visulizador de imagenes </h1>
+
+		<figure>
+			<h3>titulo Imagen</h3>
+			<img src="/img/1.jpeg" alt="">
+		</figure>
+		<figure>
+			<h3>titulo Imagen</h3>
+			<img src="/img/2.jpeg" alt="">
+		</figure>
+		<figure>
+			<h3>titulo Imagen</h3>
+			<img src="/img/3.jpg" alt="">
+		</figure>
+	</section>
+
+	<section class="contenidoImagenes">
+		<section class="imagenVisualizar">
+			<img src="/img/1.jpeg" alt="">
+		</section>
+		<section class="listadoImagenes">
+			<div> <img src="/img/1.jpeg" alt=""></div>
+			<div> <img src="/img/2.jpeg" alt=""></div>
+			<div> <img src="/img/3.jpg" alt=""></div>
+		</section>
+	</section> -->
+
+	<script type="text/javascript" src="lib/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="lib/underscore-min.js"></script>
+	<script type="text/javascript" src="lib/handlebars-v1.3.0.js"></script>
+	<script type="text/javascript" src="lib/backbone-min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/models/imagenes.js"></script>
+	<script type="text/javascript" src="js/models/album.js"></script>
+
+	<script type="text/javascript" src="js/collections/imagenes.js"></script>
+	<script type="text/javascript" src="js/collections/albums.js"></script>
+
+	
+	<script type="text/javascript" src="js/views/album.js"></script>
+	<script type="text/javascript" src="js/views/albums.js"></script>
+	<script type="text/javascript" src="js/views/imagen.js"></script>
+	<script type="text/javascript" src="js/views/listImagen.js"></script>
+	<script type="text/javascript" src="js/views/seleccionImagen.js"></script>
+
+
+
+
+	<script type="text/javascript" src="js/routers/router.js"></script>
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+
+
+
+	
+
+
+</body>
+</html>

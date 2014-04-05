@@ -1,0 +1,60 @@
+{
+	"Interfaz": {
+    "url": "img/3.jpg",
+    "imagenes": [
+
+	{
+			"titulo":"inicio",
+			"urlImagen":"img/5.png"
+		},
+		{
+			"titulo":"login",
+			"urlImagen":"img/12.png"
+		},
+		{
+			"titulo":"Buscador",
+			"urlImagen":"img/11.png"
+		},	{
+			"titulo":"opciones",
+			"urlImagen":"img/13.png"
+		},
+		{
+			"titulo":"Detalles",
+			"urlImagen":"img/9.png"
+		}
+
+    ]
+  },
+	"Logos": {
+    "url": "img/1.jpg",
+    "imagenes": [
+
+	{
+			"titulo":"Android centro",
+			"urlImagen":"img/1.jpg"
+		},
+		{
+			"titulo":"Todo Android ",
+			"urlImagen":"img/2.jpg"
+		},
+		{
+			"titulo":"Fondo Android",
+			"urlImagen":"img/3.jpg"
+		},	{
+			"titulo":"Fondo Django",
+			"urlImagen":"img/4.jpg"
+		},
+		{
+			"titulo":"Logo Django",
+			"urlImagen":"img/6.png"
+		},
+		{
+			"titulo":"Fondo 1 node.js",
+			"urlImagen":"img/7.png"
+		},	{
+			"titulo":"Fondo 2 node.js",
+			"urlImagen":"img/10.jpg"
+		}
+    ]
+  }
+}
